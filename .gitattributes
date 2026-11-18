@@ -1,0 +1,4 @@
+# Hooks are shell scripts: force LF so they run on every OS
+* text=auto eol=lf
+hooks/* text eol=lf
+*.sh text eol=lf
